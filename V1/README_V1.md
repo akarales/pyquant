@@ -47,14 +47,17 @@ Contains funding rate data from `funding.py`, formatted as:
 
 ## Usage
 
-To run any of the scripts, ensure Python 3.7 or higher is installed along with the necessary libraries: `asyncio`, `json`, `os`, `datetime`, `pytz`, `websockets`, `termcolor`, `aiofiles`, and `csv`. Start the script using:
+To run any of the scripts, ensure Python 3.9 or higher is installed along with the necessary libraries: `asyncio`, `json`, `os`, `datetime`, `pytz`, `websockets`, `termcolor`, `aiofiles`, and `csv`. Start the script using:
 ```bash
 python <script_name>.py
+
+# sometimes you might have to run python3 instead of python
+python3 <script_name>.py
 ```
 
 ## Dependencies
 
-- Python 3.7+
+- Python 3.9+
 - `asyncio`, `json`, `os`, `datetime`, `pytz`, `websockets`, `termcolor`, `aiofiles`, `csv`
 
 Ensure all dependencies are installed using:
